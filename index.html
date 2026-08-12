@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaGranja</title>
+    <link rel="icon" href="../img/logo_empresa/logo_empresa.png">
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+   
+   <div class="contenedor">
+
+        <div class="logo">
+
+            <img src="../img/logo_empresa/logo_empresa.png" alt="Logo empresa">
+            <h2>Supermercado LaGranja</h2>
+            <p>Sistema de gestión de inventario</p>
+            
+        </div>
+
+        <div class="formulario"> 
+
+            <div class="titulo">
+
+                <h2>Iniciar Sesión</h2>
+
+            </div>
+
+            <form action="menu.html" method="post">
+
+                <div class="formu">
+
+                    <img class="icono_usuario" src="../img/iconos/icono_usuario.webp" alt="Icono usuario">
+                    <p class="texto_usuario">Usuario</p>
+
+                </div>
+
+                <input type="text" name="usuario" id="usuario" required placeholder="Ingrese Usuario">
+
+                <div class="formu">
+
+                    <img class="icono_contraseña" src="../img/iconos/icono_contraseña.jpeg" alt="Icono contraseña">
+                    <p class="texto_contraseña">Contraseña</p>
+
+                </div>
+
+                <input type="password" name="contraseña" id="contraseña" required placeholder="Ingrese Contraseña">
+               
+                <button class="ingresar" type="submit"> Ingresar </button> 
+
+                   <p id="contraseña"></p>
+
+            </form>
+
+            <a href="recuperar_contraseña.html">
+
+                <hr> <p>¿Olvidaste tu Contraseña?</p> <hr>
+
+            </a>
+
+            <a class="boton_registrarse" href="registrarse.html">
+
+                <button class="registrarse" type="button">Registrarse</button>
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
